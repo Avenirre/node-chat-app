@@ -8,10 +8,6 @@ let app = express();
 
 app.use(express.static(publicPath))
 
-// app.get('/', (request, response) => {
-//     response.render(publicPath + 'index.html'
-//   });
-
 app.listen(3000, () => {
   console.log(`Server is up on port ${port}`);
 })
